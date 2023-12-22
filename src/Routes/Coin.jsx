@@ -30,7 +30,7 @@ const Coin = () => {
                     </div>
                     <div className="info">
                         <div className="coin-heading">
-                            {coin.image ? <img src={coin.image.small} /> : null}
+                            {coin.image ? <img src={coin.image.small} alt="Description of the image" /> : null}
                             <p>{coin.name}</p>
                             {coin.symbol ? <p>{coin.symbol.toUpperCase()}/USD</p> : null}
                         </div>
